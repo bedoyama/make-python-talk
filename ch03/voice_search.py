@@ -24,11 +24,11 @@ while True:
         print('Goodbye!')
         break
     elif "search" in inp: 
-        inp = inp.replace('search ','')
+        inp = inp.replace('search ','', 1)
         webbrowser.open("http://google.com/search?q="+inp)
         continue
     elif "Search" in inp: 
-        inp = inp.replace('Search ','')
+        inp = inp.replace('Search ','', 1)
         webbrowser.open("http://google.com/search?q="+inp)
         continue
 
