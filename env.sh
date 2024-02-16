@@ -11,3 +11,5 @@ pip install SpeechRecognition
 brew install portaudio
 pip install pyaudio
 brew install flac
+
+brew install mpg123
